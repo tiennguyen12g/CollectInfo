@@ -1,0 +1,60 @@
+.wrap-enter-info{
+     width: calc(100% - 30px);
+     min-width: 300px;
+     margin: 15px;
+     padding: 0;
+     border: 1px solid black;
+     border-radius: 8px;
+     overflow: hidden;
+     padding-bottom: 10px;
+}
+.form-container{
+     width: 100%;
+     padding: 0px 20px 20px 20px;
+     .form-field{
+          // background-color: orange;
+          width: 100%;
+          margin-top: 10px;
+          .title-field{
+               width: 100%;
+               text-align: left;
+               font-size: 18px;
+               font-weight: 600;
+          }
+          .input-decor{
+               width: 100%;
+               height: 28px;
+               padding: 5px 0px 5px 10px;
+               font-size: 16px;
+               border-radius: 6px;
+               outline: none;
+               border: 1px solid gainsboro;
+               background-color: rgb(236, 234, 234);
+          }
+     }
+}
+.form-name{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     padding: 0px 20px;
+     background-color: rgb(252, 190, 75);
+     h3{
+          color: rgb(40, 138, 230);
+          margin: 5px 0px;
+     }
+}
+.select-network{
+     outline: none;
+     width: 200px;
+     height: 35px;
+     border-radius: 10px;
+     padding: 0px 10px;
+     color: rgb(12, 137, 187);
+     font-weight: 500;
+     font-size: 18px;
+     margin-top: 10px;
+ }
+ .btn-decor{
+     background-color: gainsboro;
+ }

@@ -1,0 +1,24 @@
+.wrap-main-body {
+  width: 100vw;
+}
+.select-network {
+  outline: none;
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  padding: 0px 10px;
+  color: rgb(12, 137, 187);
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.btn-decor {
+  background-color: gainsboro;
+}
+.div-btn {
+     width: 100%;
+  margin-top: 10px;
+  .btn-decor-primary {
+    background-color: rgb(25, 174, 233);
+  }
+}
